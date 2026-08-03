@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://zoetech123.github.io/zoe-tech-solutions-website/sitemap.xml
