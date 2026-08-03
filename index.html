@@ -365,25 +365,32 @@ Yes. We provide logo design, company profiles, business cards, letterheads and c
 
     <p>We'd love to hear from you. Send us your enquiry below.</p>
 
-    <form class="contact-form"action="https://formspree.io/f/xaqrzlea"method="POST">
+   <form class="contact-form" action="https://formspree.io/f/xaqrzkwv" method="POST">
 
-        <input type="text" placeholder="Full Name" required>
+  <input type="text" name="Full_Name" placeholder="Full Name" required>
 
-        <input type="text" placeholder="Company Name">
+  <input type="text" name="Company_Name" placeholder="Company Name">
 
-        <input type="email" placeholder="Email Address" required>
+  <input type="email" name="email" placeholder="Email Address" required>
 
-        <input type="tel" placeholder="Phone Number">
+  <input type="tel" name="phone" placeholder="Phone Number">
 
-        <select >
-            <option>Select a Service</option>
-            <option>Website Development</option>
-            <option>Digital Branding</option>
-            <option>Business Documentation</option>
-            <option>ICT Solutions</option>
-            <option>Other</option>
-        </select>
+  <select name="service" required>
+    <option value="">Select a Service</option>
+    <option value="Website Development">Website Development</option>
+    <option value="Digital Branding">Digital Branding</option>
+    <option value="Business Documentation">Business Documentation</option>
+    <option value="ICT Solutions">ICT Solutions</option>
+    <option value="Other">Other</option>
+  </select>
 
+  <textarea name="message" placeholder="Write your message" rows="6" required></textarea>
+
+  <button type="submit" class="btn-send-message">
+    Send Message
+  </button>
+
+</form>
         <textarea placeholder="Write your message here..." rows="6" required></textarea>
 
         <button type="submit" class="btn">
@@ -436,7 +443,7 @@ Yes. We provide logo design, company profiles, business cards, letterheads and c
 
 </footer>
 
-<script src="js/script.js"></script>
+<!--<script src="js/script.js"></script>-->
 </body>
 <!DOCTYPE html>
 <html lang="en">
