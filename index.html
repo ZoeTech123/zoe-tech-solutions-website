@@ -805,50 +805,32 @@ Yes. We provide logo design, company profiles, business cards, letterheads and c
 
     <p>We'd love to hear from you. Send us your enquiry below.</p>
 
-    <form class="contact-form" action="https://formspree.io/f/xaqrzkwv" method="POST"
-    
-        <label>
-            Full Name
-            <input type="text" name="Full_Name" required>
-        </label>
+   <form class="contact-form" action="https://formspree.io/f/xaqrzkwv" method="POST">
 
-        <label>
-             Company Name
-            <input type="text" name="Company_Name">
-        </label>
-        
-        <label>
-            Email Address
-            <input type="email" name="email" required
-        </label>
+  <input type="text" name="Full_Name" placeholder="Full Name" required>
 
-        <label>
-            Phone Number
-            <input type="tel" name="phone"
-        </label>
+  <input type="text" name="Company_Name" placeholder="Company Name">
 
-        <label>
-          Select a Service
-          <select name="service" required>
-            <option value="" disabled selected>Select a Service</option>
-            <option value="Website Development">Website Development</option>
-            <option value="Digital Branding">Digital Branding</option>
-            <option value="Business Documentation">Business Documentation</option>
-            <option value="ICT Solutions">ICT Solutions</option>
-            <option value="Other">Other</option>
-          </select>
+  <input type="email" name="email" placeholder="Email Address" required>
 
-        </label>
+  <input type="tel" name="phone" placeholder="Phone Number">
 
-        <label>
-            Message
-             <textarea name="message" rows="6" required></textarea>
+  <select name="service" required>
+    <option value="">Select a Service</option>
+    <option value="Website Development">Website Development</option>
+    <option value="Digital Branding">Digital Branding</option>
+    <option value="Business Documentation">Business Documentation</option>
+    <option value="ICT Solutions">ICT Solutions</option>
+    <option value="Other">Other</option>
+  </select>
 
-        </label>
+  <textarea name="message" placeholder="Write your message" rows="6" required></textarea>
 
-        <button type="submit">Send Message</button>
+  <button type="submit" class="btn-send-message">
+    Send Message
+  </button>
 
-    </form>
+</form>
 
         <div class="contact-details">
 
@@ -894,6 +876,6 @@ Yes. We provide logo design, company profiles, business cards, letterheads and c
 
 </footer>
 
-<script src="js/script.js"></script>
+<!--<script src="js/script.js"></script>-->
 </body>
 </html>
